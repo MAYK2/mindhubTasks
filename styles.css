@@ -1,0 +1,93 @@
+:root {
+    --azul: #265073;
+    --verde: #2D9596;
+    --aqua: #9AD0C2;
+    --cremita: #F1FADA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--azul);
+}
+
+header {
+    padding: 3rem;
+}
+
+nav {
+    display: inline-block;
+    /* padding: 1rem; */
+    position: absolute;
+    right: 27rem;
+    top: 5.2rem;
+}
+
+nav a {
+    background-color: var(--aqua);
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+h1 {
+    font-style: italic;
+    margin-left: 2rem;
+    color: var(--cremita);
+    position: absolute;
+    left: 25rem;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: var(--cremita);
+    font-style: italic;
+}
+
+a {
+    border: black;
+    background-color: var(--verdeOscuro);
+    color: var(--azul);
+    padding: 0.3rem;
+    text-decoration: none;
+}
+
+a[href="#"] {
+    background-color: var(--cremita);
+}
+
+main {
+    text-align: center;
+    background-color: var(--azul);
+}
+main img {
+    width: 130vh;
+}
+footer {
+  padding: 5rem;
+}
+footer img {
+    float: left;
+    width: 40rem;
+    height: 40rem;
+}
+.parrafo {
+    padding-top: 5rem;
+    overflow: hidden;
+    font-size: 2rem;
+    font-style: italic;
+    color: var(--cremita);
+}
+article {
+    margin-top: 4rem;
+    padding: 2rem;
+}
+h6 {
+    font-size: 2.5rem;
+    color: var(--cremita);
+    
+}
+.email {
+    margin-top: 5rem;
+}
