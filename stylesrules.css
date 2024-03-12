@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+}
+header > p{
+    font-size: 1.4rem;
+}
+.deporte {
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.deporte ul {
+   text-align: center;
+}
+ .field {
+    padding-left: 4rem;
+    font-size: 1.2rem;
+}
+.field > h3 {
+    padding-bottom: 1rem;
+}
+span {
+    font-weight: bold;
+}
+.mainlist > li{
+    padding-bottom: 2rem;
+}
+.agegroups {
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+}
+
+.foot {
+    padding-left: 4rem;
+    font-size: 1.2rem;
+}
+.foot > ul {
+    list-style-type: none;
+}
+dt {
+    padding-left: 2rem;
+}
+dd {
+    padding-left: 3rem;
+}
