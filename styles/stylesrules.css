@@ -1,7 +1,16 @@
+:root {
+    --azul: #265073;
+    --verde: #2D9596;
+    --aqua: #9AD0C2;
+    --cremita: #F1FADA;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #265773;
+    color: #F1FADA;
 }
 header {
     text-align: center;
@@ -10,6 +19,11 @@ header {
 }
 header > p{
     font-size: 1.4rem;
+}
+a {
+    position: absolute;
+    right: 4rem;
+    color: rgba(0, 0, 0, 0.842);
 }
 .deporte {
     padding-left: 4rem;

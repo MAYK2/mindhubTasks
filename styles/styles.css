@@ -14,16 +14,11 @@
 
 header {
     padding: 3rem;
+    display: flex;
+    justify-content: space-around;
 }
 
-nav {
-    display: inline-block;
-    position: absolute;
-    right: 27rem;
-    top: 5.2rem;
-}
-
-nav a {
+nav > a {
     background-color: var(--aqua);
     text-decoration: none;
     border: 1px solid black;
@@ -31,10 +26,7 @@ nav a {
 
 h1 {
     font-style: italic;
-    margin-left: 2rem;
     color: var(--cremita);
-    position: absolute;
-    left: 25rem;
     font-size: 3rem;
 }
 
@@ -61,7 +53,9 @@ main {
     background-color: var(--azul);
 }
 main img {
-    width: 130vh;
+    max-width: 100%;
+    width: 80%;
+    height: auto;
 }
 footer {
   padding: 5rem;
@@ -70,6 +64,15 @@ footer img {
     float: left;
     width: 40rem;
     height: 40rem;
+}
+.foot1 {
+   display: flex;
+   justify-content: space-between; 
+}
+.foot2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .parrafo {
     padding-top: 5rem;
