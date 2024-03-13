@@ -42,6 +42,7 @@ h2, .p1{
     text-align: center;
     padding-bottom: 1rem;
     font-size: 1.5rem;
+    color: var(--cremita);
 }
 th,td,tr {
     padding: 3rem;
