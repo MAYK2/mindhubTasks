@@ -9,43 +9,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #265773;
-    color: #F1FADA;
+}
+body {
+    color: black;
+    background-color: var(--azul);
 }
 header {
     text-align: center;
-    padding-bottom: 2rem;
-    font-size: 1.2rem;
+    background-color: var(--azul);
+    color: var(--cremita);
 }
-header > p{
-    font-size: 1.4rem;
+
+header>p {
+    font-size: 1.3rem;
 }
-a {
-    position: absolute;
-    right: 4rem;
-    color: rgba(0, 0, 0, 0.842);
+
+h1 ,h2{
+
+    font-style: italic;
+    color: var(--cremita);
+    font-size: 2rem;
 }
+
+nav {
+    text-align: end;
+    width: 88%;
+    padding: 3rem;
+}
+
+nav>a {
+    background-color: var(--cremita);
+    text-decoration: none;
+    border: 2px solid black;
+    box-shadow: var(--aqua);
+    color: var(--azul);
+    padding: 0.3rem;
+}
+
+main {
+    margin-left: 5rem ;
+    margin-right: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--cremita);
+    flex-direction: column;
+}
+
+a[href="#"] {
+    background-color: var(--aqua);
+}
+
 .deporte {
     padding-left: 4rem;
     padding-bottom: 2rem;
     font-size: 1.2rem;
 }
+
 .deporte ul {
-   text-align: center;
+    text-align: center;
 }
- .field {
+
+.field {
     padding-left: 4rem;
     font-size: 1.2rem;
 }
-.field > h3 {
+
+.field>h3 {
     padding-bottom: 1rem;
 }
+
 span {
     font-weight: bold;
 }
-.mainlist > li{
+
+.mainlist>li {
     padding-bottom: 2rem;
 }
+
 .agegroups {
     list-style-position: inside;
     list-style-type: lower-alpha;
@@ -55,12 +97,15 @@ span {
     padding-left: 4rem;
     font-size: 1.2rem;
 }
-.foot > ul {
+
+.foot>ul {
     list-style-type: none;
 }
+
 dt {
     padding-left: 2rem;
 }
+
 dd {
     padding-left: 3rem;
 }

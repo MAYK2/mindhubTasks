@@ -17,13 +17,18 @@ header {
     display: flex;
     justify-content: space-around;
 }
-
 nav > a {
     background-color: var(--aqua);
     text-decoration: none;
-    border: 1px solid black;
+    border: 2px solid black;
+    box-shadow: var(--aqua);
+    color: var(--azul);
+    padding: 0.3rem;
 }
 
+a[href="#"] {
+    background-color: var(--cremita);
+}
 h1 {
     font-style: italic;
     color: var(--cremita);
@@ -31,43 +36,33 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--cremita);
     font-style: italic;
 }
 
-a {
-    border: black;
-    background-color: var(--verdeOscuro);
-    color: var(--azul);
-    padding: 0.3rem;
-    text-decoration: none;
-}
-
-a[href="#"] {
-    background-color: var(--cremita);
-}
 
 main {
     text-align: center;
-    background-color: var(--azul);
+    background-color: var(--cremita);
+    margin: auto;
+    padding: auto;
 }
 main img {
-    max-width: 100%;
-    width: 80%;
+    width: 50%;
     height: auto;
 }
 footer {
-  padding: 5rem;
+  padding: 4rem;
 }
 footer img {
     float: left;
-    width: 40rem;
-    height: 40rem;
+    width: 20%;
+    height: 20%;
 }
 .foot1 {
    display: flex;
-   justify-content: space-between; 
+   justify-content: space-around; 
 }
 .foot2 {
     display: flex;
@@ -75,9 +70,9 @@ footer img {
     align-items: center;
 }
 .parrafo {
-    padding-top: 5rem;
+    padding-top: 2rem;
     overflow: hidden;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-style: italic;
     color: var(--cremita);
 }
@@ -86,10 +81,10 @@ article {
     padding: 2rem;
 }
 h6 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     color: var(--cremita);
     
 }
 .email {
-    margin-top: 5rem;
+    margin-top: 4rem;
 }

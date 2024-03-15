@@ -10,66 +10,109 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 header {
+    padding-top: 2rem;
     background-color: var(--azul);
-    color: var(--cremita);
 }
+
+nav {
+    padding: auto;
+    text-align: center;
+    margin-top: 2rem;
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
 a {
+    background-color: var(--cremita);
+    color: var(--azul);
+}
+
+a[href="#"] {
+    background-color: var(--aqua);
+}
+
+a[href]:not(.Email) {
     text-decoration: none;
-    color: var(--cremita);
-    font-size: 1.5rem;
+    /* color: var(--cremita); */
+    border: 2px solid black;
+    padding: 0.3rem;
+    text-decoration: none;
 }
+
 h1 {
-    text-align: end;
-    right: 2rem;
-    width: 80%;
+    font-style: italic;
+    color: var(--cremita);
+    font-size: 3rem;
+
+    text-align: center;
+    width: 35%;
     font-size: 2.2rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
+    color: var(--cremita);
 }
+
 main {
     background-color: var(--azul);
 }
+
 article {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;    
+    text-align: center;
     padding-top: 3rem;
     background-color: var(--azul);
     color: var(--cremita);
 }
-h2, .p1{
+.maps{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h2,
+.p1 {
     text-align: center;
     padding-bottom: 1rem;
     font-size: 1.5rem;
     color: var(--cremita);
 }
-th,td,tr {
+
+th,
+td,
+tr {
     padding: 3rem;
     border: 2px solid black;
     border-collapse: collapse;
+    background-color: var(--verde);
 }
-span {
-    font-weight: bold;
-}
+
 .Extras {
     text-align: center;
     padding: 2rem;
     color: var(--cremita);
 }
+
 .Extras p {
     font-size: 1.5rem;
     text-align: start;
 }
+
 .directions {
     text-align: center;
 }
+
 .directions p {
     display: inline;
     text-align: center;
     padding-left: 15rem;
     font-size: 1.5rem;
 }
+
 footer {
     background-color: var(--cremita);
 }
